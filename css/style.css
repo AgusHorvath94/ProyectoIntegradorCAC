@@ -136,6 +136,12 @@ ul {
     gap: 2.5rem;
 }
 
+.card img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
 #honolulu {
     width: 50%;
 }
@@ -327,11 +333,14 @@ footer ul {
         flex-direction: column;
     }
 
+
+
     form {
         display: flex;
         flex-direction: column;
        
     }
+
 
     form input {
         width: 150px;
@@ -366,8 +375,6 @@ footer ul {
         font-size: 12px; /* Tamaño de fuente reducido para dispositivos móviles */
     }
 
-  
-
 
     .presentacion {
         width: 100%; /* Ancho completo en dispositivos móviles */
@@ -384,11 +391,17 @@ footer ul {
         font-size: 1.5rem; /* Tamaño de título más pequeño en dispositivos móviles */
     }
 
+
+
     .cards {
         flex-direction: column; /* Cambio a disposición vertical en dispositivos móviles */
-        align-items: center; /* Alineación centrada en dispositivos móviles */
+        align-items: center;
         gap: 3rem; 
        ;/* Espaciado más pequeño entre tarjetas en dispositivos móviles */
+    }
+
+    .card {
+        width: 150px;
     }
 
     form input {
