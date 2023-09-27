@@ -312,8 +312,7 @@ footer ul li a {
     .presentacion {
         width: 80%; /* Ancho de presentación diferente en tabletas */
         left: 50px;
-        margin-top: 20rem;
-        font-size: 15px;
+     
        /* Posición de presentación diferente en tabletas */
     }
 
@@ -402,8 +401,7 @@ footer ul li a {
 
     .presentacion {
         width: 70%; /* Ancho completo en dispositivos móviles */
-         top : 6rem;
-        bottom : 10rem; /* Posición izquierda en dispositivos móviles */
+        
          font-size: 1rem;/* Alineación centrada en dispositivos móviles */
     }
      
@@ -424,6 +422,7 @@ footer ul li a {
         flex-direction: column; /* Cambio a disposición vertical en dispositivos móviles */
         align-items: center;
         gap: 3rem; 
+        width: 280px;
        ;/* Espaciado más pequeño entre tarjetas en dispositivos móviles */
     }
 
