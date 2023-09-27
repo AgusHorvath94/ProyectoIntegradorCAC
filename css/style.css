@@ -131,6 +131,10 @@ ul {
     
 }
 
+.card h2 {
+    font-weight: 1000;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -399,7 +403,6 @@ footer ul li a {
 
     .presentacion {
         width: 70%; /* Ancho completo en dispositivos móviles */
-        
          font-size: 1rem;/* Alineación centrada en dispositivos móviles */
     }
      
@@ -419,21 +422,36 @@ footer ul li a {
     .cards {
         flex-direction: column; /* Cambio a disposición vertical en dispositivos móviles */
         align-items: center;
-        gap: 3rem; 
+        justify-content: center;
+        gap: 3rem;
+        
        
        /* Espaciado más pequeño entre tarjetas en dispositivos móviles */
     }
 
-    .card {
-        width: 290px;
-        margin: 5px auto;
+    .card  {
+        width: 280px;
+     
     }
 
+ 
+
+    .card p {
+        font-size: 1.25rem;
+    }
   
+
+   .octubre p {
+    font-size: 1rem;
+   }
+
     form input {
 
         width: 140px;
+        height: 40px;
     }
+
+    
 
     textarea {
         width: 275px;
@@ -443,6 +461,22 @@ footer ul li a {
 
     form button {
         width: 285px;
+        font-size: 1rem;
+    }
+
+    footer ul {
+        width: 100%;
+        margin-bottom: -1rem;
+        flex-direction: column;
+        
+
+    }
+
+    footer ul a li {
+        font-size: 3rem;
+        text-decoration: none;
+        color: white;
+        font-weight: 1000;
     }
     /* Agregar más ajustes de estilos según sea necesario */
 }
