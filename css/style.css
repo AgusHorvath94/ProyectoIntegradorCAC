@@ -263,6 +263,7 @@ form button {
     background-color:#97C83B ;
     border : none;
     color: white;
+    border-radius: 5px;
 }
 
 footer {
@@ -460,8 +461,12 @@ footer ul li a {
     }
 
     form button {
-        width: 285px;
+        width: 280px;
         font-size: 1rem;
+        position: relative;
+        left: -2.70px;
+        font-weight: bold;
+        
        
     }
 
