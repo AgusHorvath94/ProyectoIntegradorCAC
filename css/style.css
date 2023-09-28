@@ -462,6 +462,7 @@ footer ul li a {
     form button {
         width: 285px;
         font-size: 1rem;
+       
     }
 
     footer ul {
@@ -472,9 +473,12 @@ footer ul li a {
 
     }
 
-    footer ul a li {
-        font-size: 3rem;
+    a {
         text-decoration: none;
+    }
+
+    footer ul a li {
+        font-size: 5rem;
         color: white;
         font-weight: 1000;
     }
