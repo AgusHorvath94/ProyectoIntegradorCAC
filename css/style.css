@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+/* Styles generales */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +12,11 @@ body {
   font-family: Roboto;
 }
 
+/* Styles del header */
+
 a {
   text-decoration: none;
+  color: whitesmoke;
 }
 
 nav {
@@ -52,6 +57,8 @@ ul {
   flex-direction: row;
   gap: 1.5rem;
 }
+
+/* Styles del main */
 
 .contenedor-main {
   background-image: url(../img/ba1.jpg);
@@ -99,6 +106,8 @@ ul {
   left: 28rem;
   font-family: 1000;
 }
+
+/* Styles de las cards */
 
 .card {
   display: flex;
@@ -206,6 +215,8 @@ article {
   gap: 1rem;
 }
 
+/* Styles del formulario */
+
 form input {
   width: 338px;
   height: 30px;
@@ -238,6 +249,8 @@ form button {
   border-radius: 5px;
 }
 
+/* Styles del footer */
+
 footer {
   background-color: #182242;
   margin-bottom: -1rem;
@@ -252,6 +265,9 @@ footer ul {
   padding: 2rem;
   gap: 2rem;
 }
+
+/* Media query  para tablets */
+
 
 @media (max-width: 980px) {
   body {
@@ -344,6 +360,8 @@ footer ul {
     flex-wrap: wrap;
   }
 }
+
+/* Media query para moviles */
 
 @media (max-width: 320px) {
   body {
