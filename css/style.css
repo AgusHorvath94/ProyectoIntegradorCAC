@@ -233,6 +233,8 @@ textarea {
   font-family: Roboto;
   font-size: 1.25rem;
   padding: 0.5rem;
+  border-color: #D0D0D0;
+  border-radius: 5px;
 }
 
 form p {
@@ -410,7 +412,7 @@ footer ul {
   }
 
   textarea {
-    width: 275px;
+    width: 277px;
  
   }
 
